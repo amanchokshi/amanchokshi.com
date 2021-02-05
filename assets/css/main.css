@@ -258,7 +258,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-family: Bitter, Helvetica, sans-serif;
+		font-family: Bitter, serif;
         /* font-style: italic; */
 		font-weight: 500;
 		letter-spacing: 0.1em;
@@ -336,7 +336,7 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.025);
 		border-radius: 5px;
 		border: solid 2px rgba(255, 255, 255, 0.125);
-		font-family: "Courier New", monospace;
+		/* font-family: "Courier New", monospace; */
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -344,7 +344,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		/* font-family: "Courier New", monospace; */
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -3438,7 +3438,7 @@ input, select, textarea {
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-            font-family: Bitter;
+            font-family: "Bitter", serif;
             font-style: italic;
             text-transform: none;
 			font-size: 3.3em;
