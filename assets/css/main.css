@@ -1,6 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo|Bitter:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,500&display=swap');
 @import url(fontawesome-all.min.css);
 
+@font-face {
+    font-family: 'aileron';
+    src: url('../fonts/aileron/Aileron-Regular-webfont.eot');
+    src: url('../fonts/aileron/Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron/Aileron-Regular-webfont.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+
+}
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -124,7 +133,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Archivo", Helvetica, sans-serif;
+		font-family: "aileron", Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -195,7 +204,7 @@ input, select, textarea {
 			text-decoration: none;
 			border-bottom: 0;
 			display: block;
-			font-family: Archivo, Helvetica, sans-serif;
+			font-family: aileron, Helvetica, sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
@@ -2174,7 +2183,7 @@ input, select, textarea {
 	label {
 		color: #ffffff;
 		display: block;
-		font-family: Archivo, Helvetica, sans-serif;
+		font-family: aileron, Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2276,7 +2285,7 @@ input, select, textarea {
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-family: "Archivo", Helvetica, sans-serif;
+			font-family: "aileron", Helvetica, sans-serif;
 			text-transform: none;
 			letter-spacing: 0;
 			font-weight: 300;
@@ -2876,7 +2885,7 @@ input, select, textarea {
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: Archivo, Helvetica, sans-serif;
+		font-family: aileron, Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3.75em;
@@ -3110,7 +3119,7 @@ input, select, textarea {
 			}
 
 		#header nav {
-			font-family: Archivo, Helvetica, sans-serif;
+			font-family: aileron, Helvetica, sans-serif;
 			font-size: 0.8em;
             font-weight: 500;
 			height: 3em;
@@ -3337,7 +3346,7 @@ input, select, textarea {
 					border-radius: 5px;
 					border: 0;
 					display: block;
-					font-family: Raleway, Helvetica, sans-serif;
+					font-family: aileron, Helvetica, sans-serif;
 					font-size: 0.8em;
 					font-weight: 200;
 					letter-spacing: 0.1em;
@@ -3463,7 +3472,7 @@ input, select, textarea {
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			font-family: Archivo, Helvetica, sans-serif;
+			font-family: aileron, Helvetica, sans-serif;
 			font-size: 0.74em;
 			letter-spacing: 0.18em;
             line-height: 1;
@@ -3579,7 +3588,7 @@ input, select, textarea {
 		}
 
 		#wrapper > header p {
-			font-family: Archivo, Helvetica, sans-serif;
+			font-family: aileron, Helvetica, sans-serif;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
