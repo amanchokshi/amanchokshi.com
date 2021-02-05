@@ -3107,6 +3107,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			-ms-transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			transition: opacity 0.2s ease-in-out, visibility 0.2s;
+			font-family: aileron, Helvetica, sans-serif;
 			border-bottom: 0;
 			font-size: 0.8em;
 			margin-bottom: 0;
@@ -3126,7 +3127,7 @@ input, select, textarea {
 			letter-spacing: 0.1em;
 			line-height: 3em;
 			position: absolute;
-			right: 0.7em;
+			right: .7em;
 			text-transform: uppercase;
 			top: 0.7em;
 		}
@@ -3188,7 +3189,7 @@ input, select, textarea {
 		}
 
 			#header.alt h1 {
-				opacity: 0;
+                opacity: 0;
                 visibility: hidden;
 			}
 
@@ -3226,22 +3227,27 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#header nav a[href="#menu"] {
-				width: 4em;
-				white-space: nowrap;
-				text-indent: 4em;
-				position: relative;
+                width: 14em;
+                /* white-space: nowrap; */
+                /* text-indent: 4em; */
+                font-size: 1.6em;
+                position: relative;
+                right: 88vw;
+                opacity: 0.70;
 			}
 
-				#header nav a[href="#menu"]:before {
-					width: inherit;
-					position: absolute;
-					top: 0;
-					left: 0;
-					text-indent: 0;
-					text-align: right;
-					margin-left: 0;
-					padding-right: 1.25em;
-				}
+                #header nav a[href="#menu"]:before {
+                    width: inherit;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    text-indent: 0;
+                    text-align: right;
+                    margin-left: 0;
+                    /* padding-right: 1.25em; */
+                    padding-left: 6vw;
+                    padding-top: 3vw;
+                }
 
 		}
 
