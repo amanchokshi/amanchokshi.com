@@ -3442,7 +3442,7 @@ input, select, textarea {
             font-family: Bitter;
             font-style: italic;
             text-transform: none;
-			font-size: 3.2em;
+			font-size: 3.3em;
             margin-bottom: 0.1em;
 		}
 
@@ -3465,7 +3465,7 @@ input, select, textarea {
 			filter: blur(0);
 			opacity: 1;
 			font-family: Archivo, Helvetica, sans-serif;
-			font-size: 1em;
+			font-size: 0.8em;
 			letter-spacing: 0.18em;
             line-height: 1;
 			text-transform: uppercase;
@@ -3518,11 +3518,12 @@ input, select, textarea {
 					}
 
 				#banner h2 {
-                    font-size: 2.4em;
+                    font-size: 2.6em;
 				}
 
 				#banner p {
-                    font-size: 0.8em;
+                    font-size: 0.6em;
+                    font-weight: 500;
 				}
 
 		}
