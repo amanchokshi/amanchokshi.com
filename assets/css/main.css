@@ -3465,7 +3465,7 @@ input, select, textarea {
 			filter: blur(0);
 			opacity: 1;
 			font-family: Archivo, Helvetica, sans-serif;
-			font-size: 0.7em;
+			font-size: 0.74em;
 			letter-spacing: 0.18em;
             line-height: 1;
 			text-transform: uppercase;
@@ -3522,7 +3522,7 @@ input, select, textarea {
 				}
 
 				#banner p {
-                    font-size: 0.5em;
+                    font-size: 0.54em;
                     font-weight: 500;
 				}
 
