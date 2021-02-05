@@ -158,7 +158,12 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 12pt;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed, fixed;
+                background-position: center, center;
                 background-position: center, center;
+                height: 100vh;
 			}
 
 		}
@@ -3497,6 +3502,10 @@ input, select, textarea {
 			#banner {
                 padding-top: 21%;
                 text-align: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed, fixed;
+                background-position: center, center;
                 background-position: center, center;
                 height: 100vh;
 			}
@@ -3613,7 +3622,12 @@ input, select, textarea {
 		#wrapper > header {
             background-position: center, center;
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto, 125%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed, fixed;
+            background-position: center, center;
+            background-position: center, center;
+            height: 100vh;
 			margin-bottom: -2.5em;
 		}
 
@@ -4118,7 +4132,12 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		#footer {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed, fixed;
+            background-position: center, center;
             background-position: center, center;
+            height: 100vh;
 			margin-top: -2.5em;
 			padding-top: 2.5em;
 		}
