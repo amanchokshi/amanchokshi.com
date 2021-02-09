@@ -3093,7 +3093,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(53, 56, 73, 0.95);
+		background-color: #222222EE;
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3815,18 +3815,18 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: #222222;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
 			}
 
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #222222, 0 1px 0 0 #222222;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #222222, 0 1px 0 0 #222222;
 			}
 
 			.wrapper.spotlight .inner {
