@@ -3222,24 +3222,56 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#header nav a[href="#menu"] {
-				width: 4em;
-				white-space: nowrap;
-				text-indent: 4em;
-				position: relative;
-			}
+            #header h1 {
+                position: absolute;
+		        padding: 0 1.25em;
+                right: 0;
+            }
 
-				#header nav a[href="#menu"]:before {
-					width: inherit;
-					position: absolute;
-					top: 0;
-					left: 0;
-					text-indent: 0;
-					text-align: right;
-					margin-left: 0;
-					padding-right: 1.25em;
-				}
+            #header nav {
+                position: absolute;
+				/* padding: 0 1em; */
+                left: 0;
+            }
 
+            /* #header nav a[href="#menu"]:before { */
+                /* content: '\f0c9'; */
+                /* line-height: inherit; */
+			/* } */
+
+            #header nav a[href="#menu"] {
+                width: 4em;
+                text-indent: 4em;
+                white-space: nowrap;
+                position: relative;
+                display: inline-block;
+                overflow: hidden;
+                text-indent: -9999px;
+            }
+
+                #header nav a[href="#menu"]:before {
+                    content: '\f0c9';
+                    width: inherit;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    text-indent: 0;
+                    text-align: right;
+                    margin-left: 0;
+                    padding-right: 1.25em;
+                    float: left;
+                }
+
+                /* #header nav a[href="#menu"]:before { */
+                    /* width: inherit; */
+                    /* position: absolute; */
+                    /* top: 0; */
+                    /* left: 0; */
+                    /* text-indent: 0; */
+                    /* text-align: right; */
+                    /* margin-left: 0; */
+                    /* padding-right: 1.25em; */
+                /* } */
 		}
 
 
