@@ -3084,6 +3084,7 @@ input, select, textarea {
 
 		}
 
+
 /* Header */
 
 	#header {
@@ -3091,7 +3092,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-        background-color: rgba(53, 56, 73, 0.95);
+		background-color: rgba(53, 56, 73, 0.95);
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3107,7 +3108,6 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			-ms-transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			transition: opacity 0.2s ease-in-out, visibility 0.2s;
-			font-family: aileron, Helvetica, sans-serif;
 			border-bottom: 0;
 			font-size: 0.8em;
 			margin-bottom: 0;
@@ -3120,21 +3120,21 @@ input, select, textarea {
 			}
 
 		#header nav {
-			font-family: aileron, Helvetica, sans-serif;
+			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 0.8em;
-            font-weight: 500;
+			font-weight: 700;
 			height: 3em;
 			letter-spacing: 0.1em;
 			line-height: 3em;
 			position: absolute;
-			right: .7em;
+			right: 0.7em;
 			text-transform: uppercase;
 			top: 0.7em;
 		}
 
 			#header nav a {
 				border: 0;
-                display: inline-block;
+				display: inline-block;
 				padding: 0 1em;
 			}
 
@@ -3149,9 +3149,9 @@ input, select, textarea {
 					-webkit-transition: background-color 0.2s ease-in-out;
 					-ms-transition: background-color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out;
-					/* border-radius: 5px; */
-					/* box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125); */
-					padding: 0 2.35em;
+					border-radius: 5px;
+					box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+					padding: 0 1.35em;
 				}
 
 					#header nav a[href="#menu"]:before {
@@ -3163,25 +3163,21 @@ input, select, textarea {
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-                        font-family: 'Font Awesome 5 Free';
+						font-family: 'Font Awesome 5 Free';
 						font-weight: 900;
 					}
 
 					#header nav a[href="#menu"]:before {
-                        content: '\f0c9';
+						content: '\f0c9';
 						line-height: inherit;
 					}
 
 					#header nav a[href="#menu"]:hover {
 						background-color: rgba(255, 255, 255, 0.025);
-                        border-radius: 1px;
-                        box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.56);
 					}
 
 					#header nav a[href="#menu"]:active {
 						background-color: rgba(255, 255, 255, 0.075);
-                        border-radius: 1px;
-                        box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.56);
 					}
 
 		#header.alt {
@@ -3189,8 +3185,8 @@ input, select, textarea {
 		}
 
 			#header.alt h1 {
-                opacity: 0;
-                visibility: hidden;
+				opacity: 0;
+				visibility: hidden;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -3227,45 +3223,25 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#header nav a[href="#menu"] {
-                width: 14em;
-                /* white-space: nowrap; */
-                /* text-indent: 4em; */
-                font-size: 1.6em;
-                position: relative;
-                right: 86vw;
-                opacity: 0.70;
-				background-color: none;
-                box-shadow: none;
+				width: 4em;
+				white-space: nowrap;
+				text-indent: 4em;
+				position: relative;
 			}
 
-                #header nav a[href="#menu"]:before {
-                    width: inherit;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    text-indent: 0;
-                    text-align: right;
-                    /* margin-left: 0; */
-                    padding-right: 1.25em;
-                    padding-left: 6vw;
-                    padding-top: 4vw;
-			        background-color: none;
-                    box-shadow: none;
-                }
+				#header nav a[href="#menu"]:before {
+					width: inherit;
+					position: absolute;
+					top: 0;
+					left: 0;
+					text-indent: 0;
+					text-align: right;
+					margin-left: 0;
+					padding-right: 1.25em;
+				}
 
-                #header nav a[href="#menu"]:after {
-			        background-color: none;
-                    box-shadow: none;
-		        }
-                #header nav a[href="#menu"]:hover {
-			        background-color: none;
-                    box-shadow: none;
-		        }
-                #header nav a[href="#menu"]:active {
-			        background-color: none;
-                    box-shadow: none;
-		        }
-        }
+		}
+
 
 /* Menu */
 
