@@ -177,7 +177,18 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+        @media screen and (max-width: 480px) {
+
+            body {
+                background-image: url("../../images/hagar.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed, fixed;
+                background-position: center, center;
+                background-position: center, center;
+                height: 100vh;
+
+            }
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -3559,6 +3570,19 @@ input, select, textarea {
 
 		}
 
+        @media screen and (max-width: 480px) {
+            #banner {
+                background-image: url("../../images/hagar.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed, fixed;
+                background-position: center, center;
+                background-position: center, center;
+                height: 100vh;
+
+            }
+        }
+
 		body.is-preload #banner .logo {
 			-moz-transform: translateY(0.5em);
 			-webkit-transform: translateY(0.5em);
@@ -3671,6 +3695,19 @@ input, select, textarea {
 			}
 
 	}
+
+    @media screen and (max-width: 480px) {
+        #wrapper {
+            background-image: url("../../images/hagar.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed, fixed;
+            background-position: center, center;
+            background-position: center, center;
+            height: 100vh;
+
+        }
+    }
 
 	.wrapper {
 		background-color: #2e3141;
@@ -4177,23 +4214,34 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
-		#footer .inner .copyright li {
-			border-left: 0;
-			display: block;
-			margin: 1em 0 0 0;
-			padding-left: 0;
-		}
+        #footer {
+            background-color: #2e3141;
+            background-image: url("../../images/hagar.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed, fixed;
+            background-position: center, center;
+            background-position: right bottom;
+            height: 100vh;
+        }
 
-			#footer .inner .copyright li:first-child {
-				margin-top: 0;
-			}
+            #footer .inner .copyright li {
+                border-left: 0;
+                display: block;
+                margin: 1em 0 0 0;
+                padding-left: 0;
+            }
+
+                #footer .inner .copyright li:first-child {
+                    margin-top: 0;
+                }
 
 	}
 
-	@media screen and (max-width: 360px) {
+    @media screen and (max-width: 360px) {
 
-		#footer .inner {
-			padding: 2em 1.5em 0.1em 1.5em ;
-		}
+        #footer .inner {
+            padding: 2em 1.5em 0.1em 1.5em ;
+        }
 
-	}
+    }
