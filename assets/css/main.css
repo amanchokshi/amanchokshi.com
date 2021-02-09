@@ -172,7 +172,7 @@ input, select, textarea {
                 background-size: cover;
                 background-attachment: fixed, fixed;
                 background-position: center, center;
-                background-position: center, center;
+                background-position: center bottom;
                 height: 100vh;
 			}
 
@@ -3539,7 +3539,7 @@ input, select, textarea {
                 background-size: cover;
                 background-attachment: fixed, fixed;
                 background-position: center, center;
-                background-position: center, center;
+                background-position: center bottom;
                 height: 100vh;
 			}
 
@@ -3662,7 +3662,7 @@ input, select, textarea {
             background-size: cover;
             background-attachment: fixed, fixed;
             background-position: center, center;
-            background-position: center, center;
+            background-position: center bottom;
             height: 100vh;
 		}
 
@@ -4161,7 +4161,7 @@ input, select, textarea {
             background-size: cover;
             background-attachment: fixed, fixed;
             background-position: center, center;
-            background-position: center, center;
+            background-position: center bottom;
             height: 100vh;
 			margin-top: -2.5em;
 			padding-top: 2.5em;
