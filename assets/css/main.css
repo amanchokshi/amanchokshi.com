@@ -167,6 +167,7 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 12pt;
+                background-image: url("../../images/hagar.jpg");
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-attachment: fixed, fixed;
@@ -178,17 +179,6 @@ input, select, textarea {
 		}
 
         @media screen and (max-width: 480px) {
-
-            body {
-                background-image: url("../../images/hagar.jpg");
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-attachment: fixed, fixed;
-                background-position: center, center;
-                background-position: center, center;
-                height: 100vh;
-
-            }
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -3544,6 +3534,7 @@ input, select, textarea {
                 padding: 0;
                 padding-top: 21%;
                 text-align: center;
+                background-image: url("../../images/hagar.jpg");
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-attachment: fixed, fixed;
@@ -3570,18 +3561,6 @@ input, select, textarea {
 
 		}
 
-        @media screen and (max-width: 480px) {
-            #banner {
-                background-image: url("../../images/hagar.jpg");
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-attachment: fixed, fixed;
-                background-position: center, center;
-                background-position: center, center;
-                height: 100vh;
-
-            }
-        }
 
 		body.is-preload #banner .logo {
 			-moz-transform: translateY(0.5em);
@@ -3678,6 +3657,7 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
 			margin-bottom: -2.5em;
+            background-image: url("../../images/hagar.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed, fixed;
@@ -3696,18 +3676,6 @@ input, select, textarea {
 
 	}
 
-    @media screen and (max-width: 480px) {
-        #wrapper {
-            background-image: url("../../images/hagar.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed, fixed;
-            background-position: center, center;
-            background-position: center, center;
-            height: 100vh;
-
-        }
-    }
 
 	.wrapper {
 		background-color: #2e3141;
@@ -4188,6 +4156,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		#footer {
+            background-image: url("../../images/hagar.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed, fixed;
@@ -4214,27 +4183,16 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
-        #footer {
-            background-color: #2e3141;
-            background-image: url("../../images/hagar.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed, fixed;
-            background-position: center, center;
-            background-position: right bottom;
-            height: 100vh;
+        #footer .inner .copyright li {
+            border-left: 0;
+            display: block;
+            margin: 1em 0 0 0;
+            padding-left: 0;
         }
 
-            #footer .inner .copyright li {
-                border-left: 0;
-                display: block;
-                margin: 1em 0 0 0;
-                padding-left: 0;
+            #footer .inner .copyright li:first-child {
+                margin-top: 0;
             }
-
-                #footer .inner .copyright li:first-child {
-                    margin-top: 0;
-                }
 
 	}
 
