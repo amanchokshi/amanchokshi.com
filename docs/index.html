@@ -151,6 +151,28 @@
 
 	    	    	    </section>
 
+                        <section id=cta>
+                            <div class=inner>
+                                <header>
+                                    <h2>Want to get in touch?</h2>
+                                </header>
+                                <div class="special icon">
+                                    <a href=mailto:achokshi@student.unimelb.edu.au class="fa fa-envelope fa-3x"></a>
+                                </div><i class="fa fa-map-marker fa-3x icon" id=address-icon></i>
+                                <!-- <div class=address> -->
+                                  <!-- [> <p>School of Physics (David Caro Building)<br>The University of Melbourne<br>VIC 3010 Australia</p> <] -->
+                                <!-- [> [> </div> <] <] -->
+
+                                <div id="map"></div>
+                                <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+                                <script
+                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8QXz1J9TTyuqavIiQiF5bzYl1aq7vV34&callback=initMap&libraries=&v=weekly"
+                                async
+                                ></script>
+
+                            </div>
+                        </section>
+
 	    	    	    <!-- Footer -->
                         <section id="footer">
                         	<div class="inner">
@@ -177,16 +199,23 @@
                         			<!-- </ul> -->
                         		<!-- </form> -->
                         
-                        		<ul class="contact">
-                        			<li class="icon brands fa-github"><a href="https://github.com/amanchokshi"></a></li>
-                        			<li class="icon brands fa-instagram"><a href="https://www.instagram.com/aman_chokshi/"></a></li>
-                        			<li class="icon brands fa-twitter"><a href="https://twitter.com/aman_chokshi"></a></li>
-                        			<li class="icon solid fa-envelope"><a href="#"></a></li>
-                        		</ul>
+                        		<!-- <ul class="contact"> -->
+                        			<!-- <li class="icon brands fa-github"><a href="https://github.com/amanchokshi"></a></li> -->
+                        			<!-- <li class="icon brands fa-instagram"><a href="https://www.instagram.com/aman_chokshi/"></a></li> -->
+                        			<!-- <li class="icon brands fa-twitter"><a href="https://twitter.com/aman_chokshi"></a></li> -->
+                        			<!-- <li class="icon solid fa-envelope"><a href="#"></a></li> -->
+                        			<!-- <a href="#" class="special">Learn more</a> -->
+                        		<!-- </ul> -->
                         
-                        		<ul class="copyright">
-                        			<li>&copy; Aman Chokshi.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                        		</ul>
+                        
+                                <div class="bottom-container">
+                                    <a class="link fa fa-github" href="https://www.github.com/amanchokshi" target="_blank" rel="noopener noreferrer"></a>
+                                    <a class="link fa fa-instagram" href="https://www.instagram.com/aman_chokshi/" target="_blank" rel="noopener noreferrer"></a>
+                                    <a class="link fa fa-twitter" href="https://www.twitter.com/aman_chokshi" target="_blank" rel="noopener noreferrer"></a>
+                                    <ul class="copyright">
+                                        <li>&copy; Aman Chokshi.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                    </ul>
+                                </div>
                         	</div>
                         </section>
 
@@ -199,6 +228,8 @@
                 <script src="assets/js/breakpoints.min.js"></script>
                 <script src="assets/js/util.js"></script>
                 <script src="assets/js/main.js"></script>
+                <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+                <script src="assets/js/index.js"></script>
 
 	    </body>
 </html>
