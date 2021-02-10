@@ -46,7 +46,7 @@ def iterate_source_html_files():
         file_name = file_name.replace("\\", "")
         file_name = file_name.replace("/", "")
         with open(file, "r") as readfile:
-            with open(f"./build/{file_name}.html", "w+") as writefile:
+            with open(f"./docs/{file_name}.html", "w+") as writefile:
                 for line in readfile:
                     new_line = fill_placeholders(line)
                     writefile.write(new_line)
